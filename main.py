@@ -29,7 +29,7 @@ def get_custom_metadata(file_path):
 
 @app.route('/')
 def home():
-  return render_template('index.html')
+  return 'hi'
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
